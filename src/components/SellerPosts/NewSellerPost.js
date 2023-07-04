@@ -134,9 +134,7 @@ const SellerPostNew = () => {
                     </select>
                 </div>
                 <label className={classes.labelFlex} htmlFor="price">Price ($)</label>
-                <input onChange={(e) => updateState('PRICE', e.target.value)} min='1' step='0.01' placeholder="1.0" value={state.price} className={classes.inputPrice} id="price" type="number" name="price" required />
-
-
+                <input onChange={(e) => updateState('PRICE', e.target.value)} min="0" placeholder="1.0" value={state.price} className={classes.inputPrice} id="price" type="number" name="price" required />
 
                 <div className={classes.actions}>
                     <button onClick={() => navigate('/myPosts')} type="button">Cancel</button>
