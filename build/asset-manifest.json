@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f18a6ab0.css",
+    "main.js": "/static/js/main.796dfefe.js",
+    "static/media/Banner.webp": "/static/media/Banner.d1b0a13324567122b1db.webp",
+    "static/media/UserAccount.png": "/static/media/UserAccount.f99740c3723ebf24d3a5.png",
+    "static/media/SellerAccount.png": "/static/media/SellerAccount.77d9c7b41a0ef3a89aa5.png",
+    "static/media/ShoplyLogo.png": "/static/media/ShoplyLogo.dc0319d84dfe590c9ccd.png",
+    "static/media/PlayStoreLogo.png": "/static/media/PlayStoreLogo.1f14921833077eb32a6a.png",
+    "static/media/Cart.png": "/static/media/Cart.84678e92e7989bfb9ce5.png",
+    "static/media/Account.png": "/static/media/Account.697fdcd21f6d157b9073.png",
+    "index.html": "/index.html",
+    "main.f18a6ab0.css.map": "/static/css/main.f18a6ab0.css.map",
+    "main.796dfefe.js.map": "/static/js/main.796dfefe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f18a6ab0.css",
+    "static/js/main.796dfefe.js"
+  ]
+}
