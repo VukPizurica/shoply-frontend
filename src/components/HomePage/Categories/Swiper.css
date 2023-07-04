@@ -1,0 +1,14 @@
+.swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    top: 32%;
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    z-index: 10;
+    width: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--swiper-navigation-color,var(--swiper-theme-color));
+    opacity: 30%;
+    color: rgb(127, 127, 127);
+}

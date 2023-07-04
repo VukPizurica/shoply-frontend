@@ -1,0 +1,173 @@
+*{
+  font-family: 'Tahoma', 'Sans-Serif';
+}
+
+.post {
+  margin: 5% 5% 0% 7% ;
+  text-align: center;
+  display: flex;
+  width: 10rem;
+}
+.date{
+  width: 200px;
+  font-size: 13px;
+  margin: 2% 10% 0% 80%;
+  color: gray;
+}
+
+.content{
+  display: grid;
+  width: 50rem;
+  text-align: left;
+}
+
+.h1{
+  margin: 0 10%;
+}
+
+.button {
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 70px;
+  margin-left: 70%;
+  padding: 10px 20px;
+  background-color: #f6a96c;
+  border: none;
+  border-radius: 5px;
+  color: #241802;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.1s ;
+  cursor: pointer;
+  height: 50px;
+  width: 180px;
+}
+
+.button:hover,
+.button:active {
+  background-color: #ed964f;
+}
+
+.span {
+  margin: 0 0.5rem;
+}
+
+.seller{
+  display: flex;
+  margin: 3% 0% 0% 10% ;
+  align-items: center;
+  gap: 1rem;
+}
+.sellerImg{
+  height: 3rem;
+  width: 3rem;
+}
+
+.badge {
+  background-color: #1ad1b9;
+  border-radius: 30px;
+  padding: 0.15rem 1.25rem;
+  color: #1d1d1d;
+}
+.img{
+  width: 10rem;
+  height: 10rem;
+}
+.post  {
+  width: 30rem;
+  border-radius: 4px;
+}
+
+.message{
+font-weight: bold;
+}
+
+.p{
+  margin: 0 0 0 10%;
+  max-width: 100rem;
+  width: 50rem;
+  max-block-size: 7.5rem;
+}
+.actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.actions a,
+.actions button {
+  padding: 0.25rem 1rem;
+  text-decoration: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+.actions button {
+  background-color: transparent;
+  border: none;
+  color: var(--color-primary-800);
+}
+
+
+
+.review {
+  display: table-row;
+  margin: 10px;
+  text-align: left;
+}
+
+
+
+.user, .reviewText, .rating {
+  display: table-cell;
+  padding: 5px;
+  vertical-align: top;
+  margin-bottom: 3px;
+  border-top: 1px solid rgb(213, 213, 213);
+}
+
+.user {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.reviewText {
+    flex: 1;
+    margin-right: 5px;
+}
+
+.rating {
+    font-size: 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  margin-left: 150%;
+}
+
+.totalRating {
+  margin-bottom: 30px;
+  text-align: left;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+.popupRed {
+  border: 1px solid rgb(191, 0, 19);
+  color: rgb(56, 2, 2);
+  overflow: hidden;
+}
+

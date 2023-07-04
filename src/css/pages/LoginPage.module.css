@@ -1,0 +1,126 @@
+*{
+    font-family: tahoma, sans-serif;
+}
+.link{
+opacity: 80%;
+float: left;
+margin: 3% 43% 0% 0%;
+}
+
+.popupRed{
+  border: 1px solid rgb(182, 38, 38);
+  color: rgb(240, 31, 31);
+  overflow: hidden;
+}
+
+.form {
+    max-width: 60rem;
+    width: 30rem;
+    margin: 10% auto;
+  }
+  
+  .img{
+    width: 20rem;
+    height: 20rem;
+  }
+  .form label,
+  .form input,
+  .form textarea {
+    display: block;
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+  
+  .form input,
+  .form textarea {
+    font: inherit;
+    padding: 0.25rem;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    margin: 5% 0 0 0;
+    
+  }
+  
+  .actions button {
+    font: inherit;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    background-color: var(--color-gray-300);
+    color: var(--color-gray-800);
+    border: none;
+    background-color: rgb(237, 172, 92);
+  }
+  
+  .actions button[type='button'] {
+    background-color: rgb(237, 172, 92);
+  }
+  
+  .actions button:hover {
+    background-color: bisque;
+  }
+  
+  .actions button[type='button']:hover {
+    background-color: bisque;
+  }
+  
+  .testData {
+    display: grid;
+    position: absolute;
+    top: 380px;
+    left: 450px;
+    color: rgba(0, 0, 0, 0.41);
+    border: 1px solid rgba(128, 128, 128, 0.332);
+    padding: 10px;
+  }
+  
+  .testDataUsers {
+    display: flex;
+    gap: 3rem;
+  }
+  
+  .testDataTitle {
+    margin-bottom: 10px;
+    margin-left: 40%;
+  }
+  
+  .testDataLabel:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.741);
+  }
+  
+  .testDataLabel {
+    margin-bottom: 5px;
+    margin-left: 40%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .testDataLabel button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  
+  .testDataUsers div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .testDataUsers div p:not(:first-child) {
+    margin-top: 5px;
+    margin-left: 0;
+  }
+
+  .testDataContainer:hover{
+    color: rgba(0, 0, 0, 0.741);
+    cursor: pointer;
+  }
+  

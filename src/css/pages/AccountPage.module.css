@@ -1,0 +1,185 @@
+* {
+  font-family: tahoma, sans-serif;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.username{
+  background-color: rgb(214, 232, 249);
+  border: 1px solid grey;
+  height: 20px;
+  border-radius: 2px;
+}
+.form {
+  max-width: 60rem;
+  width: 40rem;
+  margin: 5% 0 0 0;
+}
+
+.img {
+  width: 20rem;
+  height: 20rem;
+}
+
+.form label,
+.form input,
+.form textarea {
+  display: block;
+  width: 70%;
+  margin: 10px 0 0 0;
+}
+
+.sellerForm label,
+.sellerForm input {
+  display: block;
+  width: 48%;
+  margin: 10px 0 0 0;
+  height: 27px;
+  
+}
+
+.form input,
+.form textarea {
+  font: inherit;
+  padding: 0.25rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  margin: 20px 200px 0px 0px;
+}
+
+.sellerForm {
+  max-width: 60rem;
+  width: 0rem;
+  margin: 5%;
+  width: 100%;
+  margin: 10px 0 0 315px;
+  font: inherit;
+  padding: 0.25rem;
+}
+
+.sellerActions{
+  margin-right: 150px;
+  margin-top: 20px;
+  gap: 1rem;
+  display: flex;
+  width:35rem;
+  float: right;
+}
+
+.sellerActionsButton {
+  margin-right: 15px;
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  margin: 20px 200px 0px 0px;
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  background-color: var(--color-gray-300);
+  color: var(--color-gray-800);
+  border: none;
+  background-color: rgb(237, 172, 92);
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  background-color: var(--color-gray-300);
+  color: var(--color-gray-800);
+  border: none;
+  background-color: rgb(237, 172, 92);
+}
+
+.sellerActionsButton {
+  cursor: pointer;
+  outline: 0;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  background-color: #ffc859;
+  font-size: 1rem;
+  border-radius: .25rem;
+  transition: color .08s ease-in-out, background-color .08s ease-in-out, border-color .08s ease-in-out, box-shadow .08s ease-in-out;
+  color: black;
+  margin: 0;
+  
+}
+
+.link{
+  background-color: transparent;
+  cursor: pointer;
+  border:none;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+
+.link:hover{
+ color: rgb(119, 123, 210);
+}
+.sellerActionsButton:hover {
+  background-color: #ff8f07;
+}
+
+.accountSelect {
+  margin: 15px 0 0 0;
+  font-size: 15px;
+  height: 30px;
+}
+
+
+.sellerFormSelect {
+  margin: 15px 0 0 0;
+  font-size: 15px;
+  height: 30px;
+  width: 170px;
+}
+
+.link2 {
+  text-decoration: none;
+  color: black;
+  width: 70px;
+  height: 30px;
+  background-color: aquamarine;
+  border-radius: 20PX;
+}
+
+.actions button[type='button'] {
+  background-color: rgb(237, 172, 92);
+}
+
+.actions button:not(:disabled):hover {
+  background-color: bisque;
+}
+
+.actions button[type='button']:not(:disabled):hover {
+  background-color: bisque;
+}
+
+.disabled:disabled {
+  opacity: 50%;
+  cursor: auto;
+}
+.popupGreen {
+  border: 1px solid rgb(0, 191, 51);
+  color: rgb(0, 96, 25);
+  overflow: hidden;
+}
+
+.popupRed {
+  border: 1px solid rgb(191, 0, 19);
+  color: rgb(56, 2, 2);
+  overflow: hidden;
+}
+

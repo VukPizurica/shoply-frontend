@@ -1,0 +1,235 @@
+* {
+    font-family: 'Tahoma', 'Sans-Serif';
+}
+
+.Filters {
+    display: flex;
+    align-items: center;
+}
+
+.Search {
+    width: 500px;
+    height: 40px;
+    position: absolute;
+    top: 7rem;
+    left: 400px;
+    background: white;
+    opacity: 80%;
+    border: 1px solid #5e5e5e;
+    border-radius: 2px;
+}
+
+.SearchInput {
+    width: 370px;
+    padding: 11px 10px;
+    float: left;
+    color: #000000;
+    border: 0;
+    background: transparent;
+}
+
+.SearchInput:focus {
+    outline: 0;
+    background: transparent;
+}
+
+.SearchButton {
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    color: #000000;
+    background: transparent;
+    border-left: 1px solid #222222;
+}
+
+.clearAll {
+    background-color: none;
+    background: none;
+    border: none;
+    font-size: 15px;
+    color: rgb(136, 136, 136);
+    margin: 0 0 10px 5px;
+    cursor: pointer;
+}
+
+.filters {
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+    display: block;
+}
+
+.wipeInDown {
+    animation-name: wipe-in-down;
+}
+
+.wipeOutUp {
+    animation-name: wipe-out-up;
+}
+
+@keyframes wipe-in-down {
+    from {
+        clip-path: inset(0 0 100% 0);
+    }
+
+    to {
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+@keyframes wipe-out-up {
+    from {
+        clip-path: inset(0 0 0 0);
+    }
+
+    to {
+        clip-path: inset(0 0 100% 0);
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+  
+
+.filtersButton {
+    background-color: none;
+    background: none;
+    border: 1px solid grey;
+    border-radius: 3pxs;
+    font-size: 15px;
+    color: rgb(136, 136, 136);
+    margin: 0 0 10px 30px;
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+}
+
+.SearchButton:hover {
+    background: #cb5f5f;
+    color: #444;
+}
+
+.SearchButton:active {
+    box-shadow: 0px 0px 12px 0px rgba(225, 225, 225, 1);
+}
+
+.SearchButton:focus {
+    outline: 0;
+}
+
+.Time {
+    display: flex;
+    gap: 8px;
+    float: right;
+    margin-left: 600px;
+}
+
+
+.TimeCancel {
+    background: none;
+    background-color: none;
+    border: none;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.TimeButton {
+    position: relative;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 30px;
+    width: auto;
+    margin-right: 50px;
+    color: #6d6d6d;
+    background: transparent;
+    font-size: 16px;
+}
+
+.Price {
+    width: 500px;
+    height: 40px;
+    margin: 150px auto;
+    margin: 3rem auto;
+}
+
+.PriceInput {
+    width: 50px;
+    height: 10px;
+    padding: 11px 10px;
+    color: #000000;
+    border: 1px solid rgba(79, 79, 79, 0.714);
+    background-color: #b4d5eb6a;
+    margin: 0% 0.34% 0% 1%;
+    font-size: 12px;
+}
+
+.PriceButton {
+    height: 35px;
+    width: 90px;
+    border: 0;
+    cursor: pointer;
+    margin: 0% 0% 0% 1%;
+    color: #676767;
+    border-radius: 1px;
+    background: rgba(133, 173, 221, 0.377);
+}
+
+.PriceButton:hover {
+    height: 35px;
+    width: 90px;
+    border: 0;
+    cursor: pointer;
+    margin: 0% 0% 0% 1%;
+    color: #4b4b4b;
+    background: rgba(133, 173, 221, 0.768);
+    border-radius: 1px;
+}
+
+
+.PriceContent {
+    margin: 0% 0% 0% 3%;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.clear {
+    border: none;
+    width: 30px;
+    height: 15px;
+    font-size: 15px;
+    color: #717171fa;
+    background-color: none;
+    background: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.clear:disabled{
+    color: #b5b5b5fa;
+
+}
+.h4 {
+    margin: 2px 3% 0% 0%;
+    font-size: 18px;
+    border-right: 1px solid #c4c2c2;
+    color: #393939;
+    height: 30px;
+    padding: 0% 7px;
+}
+
+.imgContainer {
+    width: 100%;
+    height: 200px;
+    background-image: url('../../../images/Banner.webp');
+    background-size: cover;
+    background-position: 5rem;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,257 @@
+*{
+  font-family: 'Tahoma', 'Sans-Serif';
+}
+.posts {
+  margin: 2rem 2rem 2rem 20rem ;
+  max-width: 70%;
+}
+
+.list {
+  width: 30rem;
+  flex-direction: column;
+  gap: 5rem;
+  text-align: left;
+  list-style: none;
+}
+.grid{
+  width: 20rem;
+}
+.swal2-confirm.my-confirm-button {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.swal2-deny.my-deny-button {
+  background-color: #f44336;
+  color: #fff;
+}
+
+
+.popupGreen {
+  border: 1px solid rgb(0, 191, 51);
+  color: rgb(0, 96, 25);
+  overflow: hidden;
+}
+
+.popupRed {
+  border: 1px solid rgb(191, 0, 19);
+  color: rgb(56, 2, 2);
+  overflow: hidden;
+}
+
+.item, .linkItem {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  background-color: var(--color-gray-800);
+  border-radius: 0;
+  overflow: hidden;
+  max-width: 80rem;
+  width: 32rem;
+}
+
+.item{
+  border: 1px solid rgba(0, 0, 0, 0.203);
+  padding: 5px;
+  height: 180px;
+}
+
+.message{
+  margin-left: 150px;
+  margin-top: 10px;
+}
+.category {
+  padding: 5px;
+  width: fit-content;
+  min-width: 50px;
+  font-size: 10px;
+  text-align: center;
+  float: right;
+  margin-right: 100px;
+  margin-top: 70px;
+  border-radius: 15px;
+  opacity: 70%;
+}
+
+.category.Electronics {
+  
+  background: linear-gradient(to bottom, #4fc3f7, #29b6f6);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.155);
+}
+
+.category.Home {
+  
+  background: linear-gradient(to bottom, #a1887f, #8d6e63);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.155);
+}
+
+.category.Beauty {
+  
+  background: linear-gradient(to bottom, #ffb74d, #ffa726);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.155);
+}
+
+.category.Clothing {
+  
+  background: linear-gradient(to bottom, #ef5350, #e53935);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.155);
+}
+
+.category.Sports {
+  
+  background: linear-gradient(to bottom, #66bb6a, #43a047);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.155);
+}
+
+.category.Toys {
+  
+  background: linear-gradient(to bottom, #9fa8da, #7986cb);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.155);
+}
+
+.category.Garden {
+  
+  background: linear-gradient(to bottom, #81c784, #66bb6a);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.155);
+}
+
+.category.Art {
+  
+  background: linear-gradient(to bottom, #ba68c8, #ab47bc);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.155);
+}
+
+.category.Travel {
+  
+  background: linear-gradient(to bottom, #ffd54f, #ffca28);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.155);
+}
+
+.category.Bathroom {
+  
+  background: linear-gradient(to bottom, #65d3ff, #43caff);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.155);
+}
+
+.item, .linkItem:hover {
+  transform: scale(1.01);
+}
+
+.item {
+  object-fit: cover;
+  display: flex;
+  margin: 10px 0 0 0;
+  align-items: center;
+  margin: 0 0 30px 0;
+}
+
+.editButton{
+  height: 30px;
+  width: 100px;
+  color: black;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: rgb(223, 158, 112);
+  border-radius: 2px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  border: none;
+}
+
+
+.deleteButton{
+  height: 30px;
+  width: 100px;
+  color: black;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: rgba(197, 43, 8, 0.695);
+  border-radius: 2px;
+  text-decoration: none;
+  border: none;
+}
+.deleteButton:hover{
+  cursor: pointer;
+  color: black;
+  background-color: rgba(231, 46, 0, 0.988);
+  border-radius: 2px;
+}
+
+.newButton{
+  cursor: pointer;
+  margin: 5% 0 5% 50%;
+  height: 35px;
+  padding: 7px 30px 7px 30px;
+  width: 100px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(87, 142, 244, 0.988);
+  text-decoration: none;
+  font-size: 15px;
+  border: none;
+  border-radius: 2px;
+}
+
+.newButton:hover{
+  cursor: pointer;
+  color: black;
+  background-color: rgba(48, 117, 244, 0.988);
+  border-radius: 2px;
+}
+.editButton:hover{
+  color: black;
+  background-color: rgba(255, 179, 128, 0.988);
+}
+
+.link{
+  width: 30rem;
+}
+
+.flex{
+display: flex;
+gap: 1rem;
+}
+
+.title{
+  width: 150px;
+  font-size: 20px;
+}
+.price{
+  width: 100px;
+  text-align: center;
+}
+.content {
+  width: 30rem;
+  text-align: left;
+  display: flex;
+  gap: 3rem;
+}
+.item h2 {
+  margin: 0% 0 0 10%;
+  padding: 0 0 5% 0;
+}
+.img{
+  width: 120px;
+  max-width: 120px;
+  justify-content: center;
+  height: 150px;
+  object-fit: contain;
+}
+
+.imgContainer{
+  width: 150px;
+}
+
+.postDetails {
+  display: grid;
+  align-items: center;
+}
+
+.p{
+  margin: 0 0 0 10%;
+  max-width: 70rem;
+  width: 43rem;
+  text-align: justify;
+}
+

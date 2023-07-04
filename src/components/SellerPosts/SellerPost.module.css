@@ -1,0 +1,135 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.views{
+  font-size: 15px;
+}
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    max-width: 500px;
+}
+
+.category {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 17px;
+    margin-bottom: 20px;
+    float: right;
+    margin-right: 70px;
+}
+
+.reviews {
+  display: table;
+  width: 100%;
+  max-width: 800px;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+.review {
+  display: table-row;
+  margin: 10px;
+  text-align: left;
+}
+
+
+
+.user, .reviewText, .rating {
+  display: table-cell;
+  padding: 5px;
+  vertical-align: top;
+  margin-bottom: 3px;
+  border-top: 1px solid rgb(213, 213, 213);
+}
+
+.user {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.reviewText {
+    flex: 1;
+    margin-right: 5px;
+}
+
+.rating {
+    font-size: 20px;
+}
+
+.button {
+  width: 80px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 3px;
+  background-color: lightsalmon;
+  text-decoration: none;
+  justify-content: center;
+  text-align: center;
+  vertical-align: center;
+  border: none;
+  cursor: pointer;
+  color: black;
+  font-size: 14px;
+}
+
+.button:hover {
+  background-color: salmon;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  margin-left: 150%;
+}
+
+.totalRating {
+  margin-bottom: 30px;
+  text-align: left;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+.popupRed {
+  border: 1px solid rgb(191, 0, 19);
+  color: rgb(56, 2, 2);
+  overflow: hidden;
+}
+
+
